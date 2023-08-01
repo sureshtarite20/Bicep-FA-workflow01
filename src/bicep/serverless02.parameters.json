@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "pStorageAccountName": {
+            "value": "azbicepsta0801" 
+        },
+        "pAppServicePlanName": {
+            "value": "azbicep-dev-eus-linux-asp0801" 
+        },
+        "pCapacity": {
+            "value": 0 
+        },
+        "pSKUName": {
+            "value": "F1" 
+        },
+        "pFunctionAppName": {
+            "value": "azbicepfapp0801" 
+        },
+        "pStartIndex": {
+            "value": 1
+        },
+        "pCount": {
+            "value": 1
+        }
+        
+    }
+}
