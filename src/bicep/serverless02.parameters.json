@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "pStorageAccountName": {
-            "value": "azbicepsta0801" 
+            "value": "azbicepstatest08010" 
         },
         "pAppServicePlanName": {
-            "value": "azbicep-dev-eus-linux-asp0801" 
+            "value": "azbicep-dev-eus-linux-asptest08010" 
         },
         "pCapacity": {
             "value": 0 
@@ -15,7 +15,7 @@
             "value": "B1" 
         },
         "pFunctionAppName": {
-            "value": "azbicepfapp0801" 
+            "value": "azbicepfapptest08010" 
         },
         "pStartIndex": {
             "value": 1
