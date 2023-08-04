@@ -31,7 +31,7 @@ jobs:
       - name: deploy bicepInfra
         working-directory: '${{ github.workspace }}/src/bicep'
         run: |
-           az deployment group create --what-if -g azbicep-serverless-RG0801 -f ./serverless01.bicep -p ./serverless02.parameters.json
+           az deployment group create --what-if -g afa-Rg01 -f ./serverless01.bicep -p ./serverless02.parameters.json
              
   deploy:
     # The type of runner that the job will run on
@@ -50,6 +50,6 @@ jobs:
         - name: deploy bicepInfra
           working-directory: '${{ github.workspace }}/src/bicep'
           run: |
-            az deployment group create -g azbicep-serverless-RG0801 -f ./serverless01.bicep -p ./serverless02.parameters.json
+            az deployment group create -g afa-Rg01 -f ./serverless01.bicep -p ./serverless02.parameters.json
 
       
